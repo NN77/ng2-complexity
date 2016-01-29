@@ -4,7 +4,11 @@
 :metal: A complete Angular 2 project for TypeScript built with SystemJS, Gulp, Bootstrap 4, PostCSS, Jade, TSLint, Karma, Jasmine, Webserver with LiveReload
 
 ## Global Deps
-**Check before install:** npm -g ls --depth=0
+**Check before install global deps:**
+```bash
+npm -g ls --depth=0
+```
+**Install global deps**
 ```bash
 npm i -g http-server gulp tsd ts-node typescript
 ```
@@ -28,18 +32,20 @@ npm i -g http-server gulp tsd ts-node typescript
 ```
 
 ## Quick start
-* ```bash
-  git clone https://github.com/NN77/ng2-complexity.git
-  cd ng2-complexity
-  npm i
+```bash
+git clone https://github.com/NN77/ng2-complexity.git
+cd ng2-complexity
+npm i
 ```
-* Use http-server to serve the mockup.json
-  ```bash
-  http-server ./ --cors
-  ```
-* ```bash
-  npm start
-  ```
+
+Use http-server to serve the mockup.json
+```bash
+http-server ./ --cors
+```
+```bash
+npm start
+```
+
 
 ```bash
 npm start
@@ -49,7 +55,7 @@ npm start
 >
 
 ## Credits
-:beer: for:
+Big :beer: for:
  * [exogenesick](https://github.com/exogenesick)
  * [rogerpadilla](https://github.com/rogerpadilla/angular2-minimalist-starter)
  * [valor-software](https://github.com/valor-software)
