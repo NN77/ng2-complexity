@@ -1,7 +1,8 @@
 # ng2-complexity
+:metal: A complete Angular 2 project for TypeScript built with SystemJS, Gulp, Bootstrap 4, PostCSS, Jade, TSLint, Karma, Jasmine, Webserver with LiveReload
+
 [![Dependency Status](https://david-dm.org/NN77/ng2-complexity.svg)](https://david-dm.org/NN77/ng2-complexity)
 [![devDependency Status](https://david-dm.org/rogerpadilla/NN77/ng2-complexity/dev-status.svg)](https://david-dm.org/NN77/ng2-complexity#info=devDependencies)
-:metal: A complete Angular 2 project for TypeScript built with SystemJS, Gulp, Bootstrap 4, PostCSS, Jade, TSLint, Karma, Jasmine, Webserver with LiveReload
 
 ## Global Deps
 **Check before install global deps:**
