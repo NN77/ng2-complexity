@@ -43,11 +43,8 @@ Use http-server to serve the mockup.json
 ```bash
 http-server ./ --cors
 ```
-```bash
-npm start
-```
 
-
+Start app
 ```bash
 npm start
 ```
