@@ -1,0 +1,36 @@
+{
+  "header": {
+    "nav": {
+      "menu": [
+        {
+          "route": "Main",
+          "name": "Home"
+        },
+        {
+          "route": "Category",
+          "name": "Category"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "links": [
+      {
+        "url": "http://notfinalcode.com/blog/a-look-at-angular2-lifecycle-hooks",
+        "name": "Angular 2 Lifecycle Hooks"
+      },
+      {
+        "url": "https://docs.google.com/presentation/d/1iLzUyvX6PVNxy_ooEWBZgWL6ufXxSpIpd0pZpM9m8u8/edit#slide=id.p",
+        "name": "Angular 2 for AngularJS Developsers"
+      },
+  	  {
+        "url": "http://valor-software.github.io/ng2-bootstrap/index-bs4.html",
+        "name": "Angular 2 Bootstrap 4"
+      },
+  	  {
+        "url": "https://blog.nraboy.com/2016/01/make-http-requests-in-an-ionic-2-android-and-ios-app/",
+        "name": "HTTP Requests In An Ionic 2"
+      }
+    ]
+  }
+}

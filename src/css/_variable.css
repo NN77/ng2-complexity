@@ -1,0 +1,22 @@
+$bg: #ccc;
+$bgHeader: #fff;
+$fontFamily: "open_sansregular", Helvetica, Arial, sans-serif;
+$fontFamilyBold: "open_sansbold", Helvetica, Arial, sans-serif;
+$fontSize: 1rem;
+$mainColor: #5c5c5c;
+$mainGreen: #79b60e;
+$mainBorderColor: #ddd;
+$secondaryColor: #ff9c00;
+$white: #eeeeee;
+$btnPrimary: #92c23b;
+$btnPrimaryh: #84ae38;
+$btnTitle: #FF7D03;
+$btnTitleh: #eaa139;
+$captions-text-shadow: 0 1px 2px rgba(0,0,0,.6);
+
+/* Grid breakpoints */
+$xs: 0;
+$sm: 34em;
+$md: 48em;
+$lg: 62em;
+$xl: 75em;

@@ -1,0 +1,9 @@
+@import "_variable.css";
+@import "_mixin.css";
+
+nav{
+  background: $bgHeader;
+  .active{
+    font-family: $fontFamilyBold;
+  }
+}

@@ -1,0 +1,95 @@
+@import "_fonts.css";
+@import "_variable.css";
+@import "_mixin.css";
+@import "_header.css";
+@import "_footer.css";
+
+@define-mixin linearGradient($top, $bottom){
+  background: $top;
+  background: -moz-linear-gradient(top,  $top 0%, $bottom 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$bottom));
+  background: -webkit-linear-gradient(top,  $top 0%,$bottom 100%);
+  background: -o-linear-gradient(top,  $top 0%,$bottom 100%);
+  background: -ms-linear-gradient(top,  $top 0%,$bottom 100%);
+  background: linear-gradient(to bottom,  $top 0%,$bottom 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='#000000',GradientType=0 );
+}
+
+body {
+  background: $bg;
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  color: $mainColor;
+  font-style: normal;
+  height:100%;
+  modal-open {
+    padding-right:0 !important;
+  }
+  .jumbotron {
+    padding: 7rem 0rem 2rem 0rem;
+  }
+  .log-in{
+    padding-top: 1rem;
+  }
+}
+.container {
+  padding-bottom: 2rem;
+}
+
+section {
+    padding: 70px 0;
+}
+
+.card-img-top {
+  max-height: 350px;
+}
+
+button:focus, button:active {
+  outline:0 !important;
+}
+
+.c-p {
+  cursor: pointer;
+}
+.d-i-b {
+  display: inline-block;
+}
+.t-t-l {
+  text-transform: lowercase;
+}
+.t-t-c {
+  text-transform: capitalize;
+}
+.t-t-u {
+  text-transform: uppercase;
+}
+.t-d-u {
+  text-decoration: underline;
+}
+.t-d-n {
+  text-decoration: none;
+}
+.z-t {
+  z-index: 1001;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  margin: -40px 0px 0px -40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  box-sizing: border-box;
+  border: 10px solid rgba(255, 255, 255, 0.2);
+  border-top-color: #FFF;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

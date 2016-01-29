@@ -1,0 +1,26 @@
+.container-fluid
+  .row
+    .col-xs-12.col-sm-4
+      h6.text-uppercase Angular 2
+      ul.list-unstyled
+        li
+          a(href='https://angular.io/') Homepage
+        li
+          a(href='https://angular.io/docs/ts/latest/') Docs
+        li
+          a(href='https://angular.io/docs/ts/latest/guide/cheatsheet.html') Cheat Sheet
+        li
+          a(href='https://angular.io/docs/ts/latest/api/') Api
+    .col-xs-12.col-sm-4.column
+      h6.text-uppercase Useful links
+      ul.list-unstyled
+        li(*ngFor="#link of links.footer.links")
+          a(href='{{link.url}}') {{link.name | ellipsis:30}}
+    .col-xs-12.col-sm-4.text-right
+      h6.text-uppercase Follow
+      ul.list-inline
+        li
+          a(href='https://twitter.com/hashtag/angular2') #Angular2 on Twitter
+  br
+  span.pull-xs-right.text-muted.small
+    | ©2016 NN77

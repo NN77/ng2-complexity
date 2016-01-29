@@ -1,0 +1,38 @@
+.log-in([hidden]="register")
+  form([ngFormModel]="loginForm", (ngSubmit)='logIn()')
+    .row
+      .col-sm-5.form-group
+        .row
+          .col-sm-3
+            label(for='name') Email
+          .col-sm-9
+            input.form-control(type='text', ngControl='email')
+            //.alert.alert-danger([hidden]='email.valid')
+            //  | Email is required
+      .col-sm-5.form-group
+        .row
+          .col-sm-3
+              label(for='password') Pass
+          .col-sm-9
+            input.form-control(type='text', ngControl='password')
+      .col-sm-2
+        button.btn.btn-primary(type='submit', [disabled]='!loginForm.valid') Log In
+  //h3(*ngFor="#user of users")
+  //  | User: {{user.name}}
+.sign-up([hidden]="!register")
+  //form((ngSubmit)='onSubmit()', #signupForm='ngForm')
+  //  .form-group
+  //    label(for='name') Name
+  //    input.form-control(type='text', required='', [(ngModel)]='model.name', ngControl = 'name', #name='ngForm')
+  //    .alert.alert-danger([hidden]='name.valid')
+  //      | Name is required
+  //  .form-group
+  //    label(for='alterEgo') Alter Ego
+  //    input.form-control(type='text', [(ngModel)]='model.alterEgo', ngControl = 'alterEgo')
+  //  .form-group
+  //    label(for='power') Hero Power
+  //    select.form-control(required='', [(ngModel)]='model.power', ngControl = 'power', #power='ngForm')
+  //      option(*ngFor='#p of powers', [value] = 'p') {{p}}
+  //        .alert.alert-danger([hidden]='power.valid')
+  //          | Power is required
+  //    button.btn.btn-default(type='submit', [disabled]='!signUpForm.form.valid') Log In

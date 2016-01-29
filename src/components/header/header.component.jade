@@ -1,0 +1,16 @@
+nav.navbar.navbar-light.navbar-fixed-top
+  .container-fluid.logtainer([collapse]="isCollapsed")
+    .row
+      .col-md-3
+      .col-md-6
+        login
+      .col-md-3
+  a.navbar-brand(href='javascript: false', [routerLink]="['/Main']") ng2-complexity
+  ul.nav.navbar-nav
+    li.nav-item.active
+      a.nav-link(href='javascript: false', [routerLink]="['/Main']")
+        | Home
+    li.nav-item
+      a.nav-link(href='javascript: false', [routerLink]="['/Category']") Category
+  button.navbar-toggler.pull-xs-right(type='button', (click)="isCollapsed = !isCollapsed")
+    | ☰
