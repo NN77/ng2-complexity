@@ -52,6 +52,9 @@ npm start
 ## Features
 >
 
+## TODO
+> TSD to Typings
+
 ## Credits
 Big :beer: for:
  * [exogenesick](https://github.com/exogenesick)
